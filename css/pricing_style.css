@@ -1,0 +1,43 @@
+#pricingcard{
+    cursor:pointer;
+    transition:all .4s ease-in-out;
+  }
+  #pricingcard:hover{
+    transform:scale(1.05);
+    box-shadow:5px 5px 5px #888888;
+  }
+#cardssubmit{
+    margin-left: 90px;
+}
+#card_color{
+    color: #ffae00;;
+}
+#pricingul {
+  list-style-type: none;
+}
+
+#pricingul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+/* category css start */
+
+#color_div{
+    color: black;
+}
+#color_div:hover{
+  color: grey;
+}
+
+
+
+/* category css End */
